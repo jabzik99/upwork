@@ -12,7 +12,7 @@ import java.util.function.Function;
 /**
  * Utility class containing many static methods to help testing.
  *
- * @author ejunior
+ * @author abalyabin
  */
 public class SeleniumUtils {
     private static final int DEFAULT_WAIT_TIME = 10;

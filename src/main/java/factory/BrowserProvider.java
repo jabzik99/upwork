@@ -11,7 +11,7 @@ import enums.Browser;
 /**
  * Class responsible to handle the WebDrivers 
  * 
- * @author ejunior
+ * @author abalyabin
  *
  */
 public class BrowserProvider {

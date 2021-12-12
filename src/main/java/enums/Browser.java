@@ -15,7 +15,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 /**
  * This enum define how to initialize each browser driver.
  * 
- * @author ejunior
+ * @author abalyabin
  *
  */
 public enum Browser {
