@@ -61,13 +61,7 @@ public class SeleniumUtils {
      */
     public static WebElement waitForElementToBeVisible(WebDriver driver, String xpath, int timeOutInSeconds) {
         WebDriverWait wait = new WebDriverWait(driver, timeOutInSeconds);
-
-        try {
-            return wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
-        } catch (Exception e) {
-            System.out.println(e);
-            return null;
-        }
+        return wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
     }
 
     /**
