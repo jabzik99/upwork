@@ -11,12 +11,12 @@ import org.openqa.selenium.WebDriver;
  */
 public class MyJobsPage extends BasePage {
 
-  private final WebDriver driver;
+    private final WebDriver driver;
 
-  private static final String PAGE_LOCATOR = "//*[@class='layout-page-content']";
+    private static final String PAGE_LOCATOR = "//*[@class='layout-page-content']";
 
-  public MyJobsPage(WebDriver driver) {
-    super(driver, PAGE_LOCATOR, "My Jobs page");
-    this.driver = driver;
-  }
+    public MyJobsPage(WebDriver driver) {
+        super(driver, PAGE_LOCATOR, "My Jobs page");
+        this.driver = driver;
+    }
 }
